@@ -80,24 +80,28 @@ top:10px;
 <h2>Sign Up Form</h2>
 <div id="middle">
 <br>
-<label>Name        :<input type="text"</label>
+<label>Name        :<input type="text"id="name"</label>
 <br>
-<label>Email         :<input type="text"</label>
+<label>Email         :<input type="text"id="email"</label>
 <br>
-<label>Address     :<input type="text"</label>
+<label>Address     :<input type="text"id="address"</label>
 <br>
-<label>State :<input type="text"</label>
+<label>State :<input type="text"id="state"</label>
 <br>
-<label>Job :<input type="text"</label>
+<label>Job :<input type="text"id="job"</label>
 <br>
-<label>Residence:<input type="text"</label>
+<label>Residence:<input type="text"id="residence"</label>
 <br>
-<label>Zip Code:<input type="number"</label>
+<label>Zip Code:<input type="number"id="zip"</label>
 <br>
 <label>Gender:
 <br>Male<input type="radio"></input>Female<input type="radio"></input></label>
 <br>
 <br>
+ <script>
+ var x=document.getElementById('name').innerHTML.value;
+     if(x==""){alert('name cannot be empty')}
+ </script>
 <div id="foot">
 Thank You dear customer and welcome to Web Swift<br>
 Please Log In
