@@ -1,167 +1,143 @@
-<!DOCTYPE html>
-     
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta name="viewport"content="width=device-width"initial-scale="1.0"></meta>
+    <title>html</title>
 <meta charset="UTF-8"></meta>
-    <title>Log In</title>
+<meta name="viewport"content="width=device-width",initial-sacale="1.0"></meta>
+</head>
 <style>
 #top{
 width:99%;
-height:190px;
+height:100px;
 border:10px solid rgba(50,190,180,1);
 background-color:rgba(50,190,180,1);
+}
+h1{
+font-size:30px;
+text-align:center;
+color:white;
+text-shadow:4px 4px 10px black;
 }
 body{
 margin:0px;
 padding:0px;
 font-family:serif;
-font-size:50px;
 }
-h1{
-font-size:80px;
+#h2{
 text-align:center;
 color:white;
-text-shadow:2px 2px 10px black;
+text-shadow:0px 0px 15px black;
+font-size:30px;
+}
+#midd{
+width:100%;
+height:1010px;
+border:0px solid black;
 position:relative;
-top:20px;
-left:10;
+right:-8px;
 }
-h2{
-font-size:50px;
-color:white;
-text-shadow:0px 0px 10px black;
+#small{
+height:200px;
+width:220px;
+border:1px solid black;
+position:relative;
+left:40px;
+}
+#bi{
 text-align:center;
 }
-#middle{
-width:98%;
-height:700px;
-border:1px solid black;
-margin:3px 10px 3px 10px;
-position: absolute;
+#float{
+float:left;
 }
-input[type]{
-padding:20px 50px ;
-border-top:none;
-border-bottom-width:3px;
-border-left:none;
-border-right:none;
-border-color:black;
-font-family:serif;
+#floatr{
+float:right;
 }
-label{
-margin:10px 0px 10px 2px;
-}
-#foot{
-height:50px;
-width:96%;
-}
-.butt{
-font-size:40px;
-padding:20px 50px;
-position :relative;
-left:200px;
-top:3px;
-font-family:serif;
+button{
+padding:4px 15px;
 background-color:rgba(50,190,180,1);
 }
-#para{
-font-size:8px;
-}
-#foot2{
-width:50%;
-position:relative;
-left:150px;
-top:10px;
-}
-#ul{
-float: right;
-list-style-type:none;
-}
-li{
+#foot{
+width:48%;
+height:70px;
 float:left;
-color:white;
-font-size:40px;
-display:inline-block;
+border:0px;
+font-size:13px;
+margin-left:0px;
 }
-#ul2 li{
-list-style-type:none;
-background-color:grey;
-font-size:40px;
-padding:14px 25px;
-}
-a li{
-border-bottom:none;
-color:white;
-}
-#li1{
-padding-right:50px;
-padding-left:50px;
-}
-li2{
-padding-right:50px;
-padding-left:50px;
-}
-li3{
-padding-right:50px;
-padding-left:50px;
+#foot1{
+float:right;
+width:47%;
+float:right;
+height:70px;
+border:0px;
+font-size:13px;
 }
 </style>
-</head>
 <body>
 <div id="top">
-<ul id="ul">
-<li>Menu</li>
-</ul>
-<h1>Web Swift</h1>
+<h1>WebSwift</h1>
 </div>
-<ul id="ul2">
-<a href="#"><li id="li1">Html</li></a>
-<a href="#"><li id="li2">Css</li></a>
-<a href="#"><li id="li3">JavaScript</li></a>
-</ul>
+<h2 id="h2">HTML</h2>
+<div id="midd">
+<h3 id ="bi">Introduction To HTML</h3>
+<b>HTML</b> stands for:<br>
+<b>H</b>yper<b>T</b>ext<br>
+<b>M</b>arkup<br>
+<b>L</b>anguage
+<br>
+1.HTML elements are the building blocks 
+of HTML pages.<br>
+2.HTML elements are described by tags.<br>
+3.HTML describes the structure of web pages using mark up.
+<br>
+<br>
+This is an example of a simple
+HTML document.
+<div id="small">
+<   !DOCTYPE html   >  <br>
+< head >      < /head ><br>
+< body >      <br>
+<  h1 > Heading 1 < /h1><br>
+< h2 >Heading 2    < /h 2><br>
+< p > paragraph < / p ><br>
+<    /   body ><br>
+<    / html ><br>
+</div>
+HTML tags normally come in pairs
+<br>
+For Example :<br>
+< p >     < / p ><br>
+< b >     < /  b ><br>
+< body  >    < / body ><br>
+< head >      < / head ><br>
+These are called <b>tags.</b>
+<br>
+Notice that the end tag has a forward slash 
+right before the letter?
+<br>
+That tells the browser that this is a closing tag.<br>
+The <b>< DOCTYPE html ></b>simply tells the 
+browser that this is a html5 document.<br>
+The <b><  head  ></b>tag is where data or information about the 
+document is placed.<br>
+The <b><  h1 ></b>tag tells the browser that this is a first level
+heading.<br>
+The <b><  h2  ></b>tag tells the browser that this is a
+second level heading.<br><br>
+<a id="float"href="#"><button>Prev</button></a><a id="floatr"href="#">
+<button>Next</button></a>
 <br>
 <br>
 <br>
-<br>
-<br>
-<h2>Sign Up Form</h2>
-<div id="middle">
-<br>
-<label>Name        :<input type="text"id="name"></label>
-<br>
-<label>Email         :<input type="text"id="email"></label>
-<br>
-<label>Address     :<input type="text"id="address"></label>
-<br>
-<label>State :<input type="text"id="state"></label>
-<br>
-<label>Job :<input type="text"id="job"></label>
-<br>
-<label>Residence:<input type="text"id="residence"></label>
-<br>
-<label>Zip Code:<input type="number"id="zip"></label>
-<br>
-<label>Gender:
-<br>Male<input type="radio"></input>Female<input type="radio"></input></label>
-<br>
-<br>
- <script>
- var x=document.getElementById("name").innerHTML.value;
-     if(x==""){document.write(alert('name cannot be empty'));}
- </script>
+<hr></hr>
 <div id="foot">
-Thank You dear customer and welcome to Web Swift<br>
-Please Log In
-<br>
-<a href="#"><button class="butt"value="Log In">Log In</button></a>
-<div id="foot2">
-<p id="para"></p>
-<script>
-document.getElementById("para").innerHTML=Date();
-</script>
+<a href="#">Services</a><br><br>
+<a href="#">Policies</a><br>
 </div>
-</div>
+<div id="foot1">
+<a href="#">Terms and conditions</a><br><br>
+<a href="#">Privacy Policy</a><br>
 </div>
 </div>
 </body>
