@@ -2,16 +2,15 @@
         "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>html</title>
+<meta name="viewport"content="width=device-width"initialscale="1"></meta>
 <meta charset="UTF-8"></meta>
-<meta name="viewport"content="width=device-width",initial-sacale="1.0"></meta>
-</head>
+    <title>webswift</title>
 <style>
 #top{
 width:99%;
 height:100px;
-border:10px solid rgba(50,190,180,1);
-background-color:rgba(50,190,180,1);
+border:10px solid rgba(50,190,200,1);
+background-color:rgba(50,190,200,1);
 }
 h1{
 font-size:30px;
@@ -19,127 +18,115 @@ text-align:center;
 color:white;
 text-shadow:4px 4px 10px black;
 }
-body{
-margin:0px;
-padding:0px;
-font-family:serif;
+#image{
+height:50px;
+width:50px;
+position:relative;
+top:-80px;
 }
-#h2{
+body{
+margin:0;
+padding:0;
+font- family:serif;
+}
+#pic{
+height:220px;
+width:336px;
+border:0px solid black;
+background-image:url("/storage/emulated/0/download/man-in-blue-shirt-looking-at-computer-in-class.jpg" );
+background-size:cover;
+margin-right:0px;
+opacity:0.6;
+font-size:20px;
+position:relative;
+
+}
+#wright{
 text-align:center;
 color:white;
-text-shadow:0px 0px 15px black;
+font-size:25px;
+text-shadow:2px 2px 5px black;
+position:relative;
+top:40px;
+}
+#hone{
+color:rgba(50,190,200,1);
 font-size:30px;
 }
-#midd{
-width:100%;
-height:1010px;
-border:0px solid black;
-position:relative;
-right:-8px;
-}
-#small{
-height:200px;
-width:220px;
+#bord{
 border:1px solid black;
-position:relative;
-left:40px;
+background-color:grey;
+color:white;
+padding:6px 20px;
+border-radius:5px;
 }
-#bi{
-text-align:center;
+#borde{
+border:1px solid black;
+background-color:grey;
+color:white;
+padding:6px 20px;
+border-radius:5px;
 }
-#float{
-float:left;
-}
-#floatr{
-float:right;
-}
-button{
-padding:4px 15px;
-background-color:rgba(50,190,180,1);
+#border{
+border:1px solid black;
+background-color:grey;
+color:white;
+padding:6px 20px;
+border-radius:5px;
 }
 #foot{
-width:48%;
-height:70px;
 float:left;
-border:0px;
-font-size:13px;
-margin-left:0px;
+border:0px solid black;
+height:50px;
+width:49%;
+font-size:10px;
 }
-#foot1{
+#foot2{
+border:0px solid black;
 float:right;
-width:47%;
-float:right;
-height:70px;
-border:0px;
-font-size:13px;
+height:50px;
+width:49%;
+font-size:10px;
 }
 </style>
+</head>
 <body>
 <div id="top">
 <h1>WebSwift</h1>
+<img id="image"src="/storage/emulated/0/download/web-swift-image.png"></img>
 </div>
-<img src="/web-master/15306296303561584224078.jpg"height="50px"width="50px"></img>
-<h2 id="h2">HTML</h2>
-<div id="midd">
-<h3 id ="bi">Introduction To HTML</h3>
-<b>HTML</b> stands for:<br>
-<b>H</b>yper<b>T</b>ext<br>
-<b>M</b>arkup<br>
-<b>L</b>anguage
-<br>
-1.HTML elements are the building blocks 
-of HTML pages.<br>
-2.HTML elements are described by tags.<br>
-3.HTML describes the structure of web pages using mark up.
-<br>
-<br>
-This is an example of a simple
-HTML document.
-<div id="small">
-<   !DOCTYPE html   >  <br>
-< head >      < /head ><br>
-< body >      <br>
-<  h1 > Heading 1 < /h1><br>
-< h2 >Heading 2    < /h 2><br>
-< p > paragraph < / p ><br>
-<    /   body ><br>
-<    / html ><br>
+<div id="pic">
+<div id="wright">
+Welcome To WebSwift
 </div>
-HTML tags normally come in pairs
+</div>
+<h2 id="hone">Study</h2>
+<div id="bord">
+Learn HTML
+</div>
 <br>
-For Example :<br>
-< p >     < / p ><br>
-< b >     < /  b ><br>
-< body  >    < / body ><br>
-< head >      < / head ><br>
-These are called <b>tags.</b>
+<div id="borde">
+Learn CSS
+</div>
 <br>
-Notice that the end tag has a forward slash 
-right before the letter?
+<div id="border">
+Learn JAVASCRIPT
+</div>
 <br>
-That tells the browser that this is a closing tag.<br>
-The <b>< DOCTYPE html ></b>simply tells the 
-browser that this is a html5 document.<br>
-The <b><  head  ></b>tag is where data or information about the 
-document is placed.<br>
-The <b><  h1 ></b>tag tells the browser that this is a first level
-heading.<br>
-The <b><  h2  ></b>tag tells the browser that this is a
-second level heading.<br><br>
-<a id="float"href="#"><button>Prev</button></a><a id="floatr"href="#">
-<button>Next</button></a>
-<br>
-<br>
-<br>
-<hr></hr>
 <div id="foot">
-<a href="#">Services</a><br><br>
-<a href="#">Policies</a><br>
+<br>
+This site was developed by
+Richard Jongsun Rangala 
+to teach young people web development
+for free.
+
 </div>
-<div id="foot1">
-<a href="#">Terms and conditions</a><br><br>
-<a href="#">Privacy Policy</a><br>
+<div id="foot2">
+<br>
+For more information you can 
+follow me on @Instagram
 </div>
-</div>
+<br>
+<br>
 </body>
 </html>
